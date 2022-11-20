@@ -20,4 +20,7 @@ from secondApp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.mainPage),
+    path('compete/', views.competePage),
+    path('about/', views.aboutPage),
 ]
+
